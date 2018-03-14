@@ -22,37 +22,61 @@ color: black;
 
 @media screen and (max-width:992px){
   .margenes{
+    margin-left:5em;
+    margin-right:5em;
+
+  }
+  .list-group-item{
+    font-size: 1.3em;
+  }
+  p{
+    font-size: 1.4em;
+  }
+.titulos{
+  font-size:2.8em;
+}
+.certificacion{
+  font-size: 1.1em;
+}
+.card-footer{
+  font-size: 1.1em;
+}
+
+
+}
+
+
+@media only screen and (max-device-width:600px){
+  .margenes{
     margin-left:1em;
     margin-right:1em;
 
   }
   .list-group-item{
-    font-size: 1.8em;
+    font-size: 2.1em;
   }
   p{
-    font-size: 1.9em;
+    font-size: 2.1em;
   }
 .titulos{
-  font-size:3.6em;
+  font-size:3.8em;
 }
 .certificacion{
-  font-size: 1.6em;
+  font-size: 2em;
 }
 .card-footer{
-  font-size: 1.6em;
+  font-size: 2em;
+}
+.name{
+  font-size: 2.5em;
+}
+.card-title{
+  font-size: 2.8em;
+}
+.profesion{
+    font-size: 2.2em;
 }
 
-
-}
-
-
-@media screen and (max-width:600px){
-  .margenes{
-    margin-left:1em;
-    margin-right:1em;
-    border:1px solid red;
-
-  }
 }
 
 
