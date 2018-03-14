@@ -22,16 +22,25 @@ color: black;
 
 @media screen and (max-width:992px){
   .margenes{
-    margin-left:5em;
-    margin-right:5em;
+    margin-left:1em;
+    margin-right:1em;
 
   }
   .list-group-item{
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
   p{
-    font-size: 1.3em;
+    font-size: 1.6em;
   }
+.titulos{
+  font-size:3.2em;
+}
+.certificacion{
+  font-size: 1.5em;
+}
+.card-footer{
+  font-size: 1.4em;
+}
 
 
 }
@@ -39,7 +48,7 @@ color: black;
 
 @media screen and (max-width:600px){
   .margenes{
-    margin-left:150em;
+    margin-left:1em;
     margin-right:1em;
     border:1px solid red;
 
