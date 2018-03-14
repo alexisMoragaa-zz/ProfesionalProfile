@@ -10,3 +10,10 @@ ul li a{
     margin-right: 140px;
   }
 }
+
+@media screen and (min-width: 400px){
+  .margenes{
+    margin-left:60px;
+    margin-right: 60px;
+  }
+}
