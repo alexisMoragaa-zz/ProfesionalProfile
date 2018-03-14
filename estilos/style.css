@@ -1,14 +1,9 @@
-#first-container{
-  background-color: #E5E8E8  ;
-}
+
 
 ul li a{
   font-size: 1.3em;
 }
-.contenedor{
-  margin-left:10em;
-  margin-right: 10em;
-}
+
 @media screen and (min-width: 1500px){
   .margenes{
     margin-left:140px;
