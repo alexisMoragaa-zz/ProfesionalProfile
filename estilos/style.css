@@ -1,7 +1,9 @@
 
 
-ul li a{
-  font-size: 1.3em;
+.enlaces{
+  font-size: 1em;
+color: black;
+
 }
 
 
@@ -18,19 +20,34 @@ ul li a{
   }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width:992px){
   .margenes{
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:5em;
+    margin-right:5em;
 
   }
   .list-group-item{
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
   p{
-    font-size: 1.2em;
+    font-size: 1.3em;
+  }
+
+
+}
+
+
+@media screen and (max-width:600px){
+  .margenes{
+    margin-left:150em;
+    margin-right:1em;
+    border:1px solid red;
+
   }
 }
+
+
+
 
 /* @media screen and (max-width: 600px){
   .margenes{
