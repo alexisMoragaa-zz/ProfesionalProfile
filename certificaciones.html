@@ -11,27 +11,40 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
   </head>
-  <body>
+  <body class="body">
     <div class="margenes">
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="text-muted na" href="#">Alexis Moraga</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon nav"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link nav" href="index.html">Home<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active nav" href="certificaciones.html">Certificaciones</a>
-            <a class="nav-item nav-link nav" href="#">Proyectos</a>
-            <a class="nav-item nav-link nav" href="#">Quien Soy</a>
-          </div>
+
+        <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample08" style="">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link nav mr-5" href="index.html">Alexis Moraga </a>
+            </li>
+
+            <li class="nav-item ">
+              <a href="index.html" class="nav-link nav"> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active nav" href="certificaciones.html">Certificaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav" href="#">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav" href="#">Quien Soy</a>
+            </li>
+          </ul>
         </div>
       </nav>
 
-      <div class="row mt-5">
-
-          <div class="col-12  col-md-12 col-lg-4 col-xl-3">
+    <div class="col-12 mt-5">
+      <div class="row ">
+          <div class="col-12  col-md-12 col-lg-4 col-xl-3 mt-5">
             <div class="card col-12 " >
               <div class="col-6 offset-3 mt-4">
                 <img class=" card-img-top rounded-circle " src="imagenes/img-perfil.jpg"  >
@@ -58,7 +71,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-lg-8 col-xl-9" id="segundaColumna">
+          <div class="col-12 col-lg-8 col-xl-9 mt-5" id="segundaColumna">
             <div class="row">
 
               <div class="col-12 col-lg-6 col-xl-4  mb-4">
@@ -69,7 +82,7 @@
                     <p>
                         En este curso aprendí conceptos básicos de angular como como DataBinding, directivas de atributo, controladores, servicios, apis, conexiones http, uso de observables. Entre otros conceptos.
                     </p>
-                    <a class="certificacion" href="https://platzi.com/@alexisMoragaa/curso/angular/diploma/">Ver Certificación</a>
+                    <a class="certificacion" href="https://platzi.com/@alexisMoragaa/curso/angular/diploma/" target="_blank">Ver Certificación</a>
                   </div>
                 </div>
               </div>
@@ -91,11 +104,11 @@
                 <div class="card text-center ">
                   <img src="certificaciones/laravel.png" alt=""  class="card-img-top">
                   <div class="card-body">
-                    <h4 class="card-title text-center">Laravel</h4>
+                    <h4 class="card-title text-center">PHP Con Laravel</h4>
                     <p class="text-center">
                       En este curso aprendí conceptos como routing, models, migration, eloquent, relaciones, seeders, creación de modelos, vistas y controladores. Entre otros conceptos de este Franework
                     </p>
-                    <a class="certificacion" href="https://platzi.com/@alexisMoragaa/curso/curso-php-laravel/diploma/">Ver Certificación</a>
+                    <a class="certificacion" href="https://platzi.com/@alexisMoragaa/curso/curso-php-laravel/diploma/"target="_blank">Ver Certificación</a>
                   </div>
                 </div>
               </div>
@@ -112,7 +125,7 @@
                       Aprendí conceptos como commit, pull, push, merge, pullrequest, entre otros
 
                     </p>
-                    <a class="certificacion" href="https://platzi.com/@alexisMoragaa/curso/git-github/diploma/">Ver Certificación</a>
+                    <a class="certificacion" href="https://platzi.com/@alexisMoragaa/curso/git-github/diploma/"target="_blank">Ver Certificación</a>
                   </div>
                 </div>
               </div>
@@ -127,7 +140,7 @@
                       Además vi el uso de herramientas como trelo, Github proyects, y Jira para el manejo de estas metodologías.
 
                     </p>
-                    <a class="certificacion" href="https://platzi.com/@alexisMoragaa/curso/scrum/diploma/">Ver Certificación</a>
+                    <a class="certificacion" href="https://platzi.com/@alexisMoragaa/curso/scrum/diploma/"target="_blank">Ver Certificación</a>
                   </div>
                 </div>
               </div>
@@ -140,7 +153,7 @@
                     <p>
                         En este Curso aprendí conceptos y herramientas para construir una marca personal, que permita dar a mostrar parte de mi trabajo y quien soy
                      </p>
-                    <a class="certificacion" href="https://platzi.com/@alexisMoragaa/curso/marca-personal/diploma/">Ver Certificación</a>
+                    <a class="certificacion" href="https://platzi.com/@alexisMoragaa/curso/marca-personal/diploma/"target="_blank">Ver Certificación</a>
                   </div>
                 </div>
               </div>
@@ -153,7 +166,7 @@
                     <p>
                         En este curso aprendí elementos básicos para comenzar a trabajar con la terminal en sistemas operativos basados en Unix. <br> Como pwd, cd, ls. wc, cat, stdin, stdout, stderr, greep, crontabs. Entre otros
                     </p>
-                    <a href="https://platzi.com/@alexisMoragaa/curso/terminal/diploma/" class="certificacion">Ver Certificación</a>
+                    <a href="https://platzi.com/@alexisMoragaa/curso/terminal/diploma/" class="certificacion"target="_blank">Ver Certificación</a>
                   </div>
                 </div>
               </div>
@@ -168,7 +181,7 @@
                       Además de conceptos como arboles binarios, contenedores, codecs, protocolos, entre muchos otros.
 
                     </p>
-                    <a href="https://platzi.com/@alexisMoragaa/curso/ingenieria/diploma/" class="certificacion">Ver Certificación</a>
+                    <a href="https://platzi.com/@alexisMoragaa/curso/ingenieria/diploma/" class="certificacion"target="_blank">Ver Certificación</a>
                   </div>
                 </div>
               </div>
@@ -183,7 +196,7 @@
                        De igual forma se añade buena parte de lógica, y elementos como ciclos, sentencias, arrays entre otros
 
                     </p>
-                    <a href="https://platzi.com/@alexisMoragaa/curso/programacion-basica/diploma/" class="certificacion">Ver Certificación</a>
+                    <a href="https://platzi.com/@alexisMoragaa/curso/programacion-basica/diploma/" class="certificacion"target="_blank">Ver Certificación</a>
                   </div>
                 </div>
               </div>
@@ -198,7 +211,7 @@
                       Entre otros conceptos básicos sobre Startups
 
                     </p>
-                    <a href="https://platzi.com/@alexisMoragaa/curso/creacion-de-empresas/diploma/" class="certificacion">Ver Certificación</a>
+                    <a href="https://platzi.com/@alexisMoragaa/curso/creacion-de-empresas/diploma/" class="certificacion"target="_blank">Ver Certificación</a>
                   </div>
                 </div>
               </div>
@@ -207,6 +220,7 @@
 
           </div><!--Fin segunda Columna-->
         </div><!--Fin Row Principal-->
+        </div>
       </div>
 
 
