@@ -8,13 +8,19 @@ color: black;
 .body{
 
   background-color: #FAFAFA;
+
   }
-
-
-  .card{
-  box-shadow: 4px 4px 8px 3px #DADADA;
+.container-home{
+  background-color: white;
 }
 
+.card{
+  box-shadow: 3px 3px 6px 1px #DADADA;
+}
+.card-hobie{
+  border-color: red;
+  box-shadow: 0px 0px 0px 0px #1A5276;
+}
 .na{
 
   text-decoration: none;
@@ -25,8 +31,33 @@ color: black;
   color: white;
 }
 nav a{
-  font-size: 1.2em;
+  font-size: 1em;
 
+}
+#footer-container {
+    background-color: rgb(26, 82, 118 ) ;
+  color: white;
+  padding: 3em 0;
+}
+.cw{
+    color: white;
+    }
+
+.presentacion{
+  font-size: 1.2em;
+}
+
+/* .hobies{
+  background-color: #154360;
+
+} */
+
+.comillas{
+  font-size: 3.5em;
+
+}
+.espacio{
+  padding: 2em;
 }
 
 @media screen and (min-width: 1500px){
@@ -41,6 +72,7 @@ nav a{
 }
 
 @media screen and (max-device-width:992px){
+
   .margenes{
     margin-left:5em;
     margin-right:5em;
@@ -122,6 +154,25 @@ nav{
 }
 .na{
   font-size: 2.2em;
+}
+.home-profile{
+  width: 100%;
+}
+.baner{
+
+  height: 430px;
+}
+.name-home{
+  font-size: 2.7em;
+}
+.profesion-home{
+  font-size: 2.4em;
+}
+.presentacion{
+  font-size: 2.3em;
+}
+.cw{
+  font-size: 1.5em;
 }
 
 }

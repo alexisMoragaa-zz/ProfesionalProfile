@@ -11,7 +11,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
   </head>
-  <body class="body">
+  <body class="body" background="imagenes/fondo.jpg">
     <div class="margenes">
 
 
@@ -23,11 +23,14 @@
         <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample08" style="">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link nav mr-5" href="index.html">Alexis Moraga </a>
+              <a class="nav-link nav mr-5" href="index.html">Alexis Moraga</a>
             </li>
 
             <li class="nav-item ">
               <a href="index.html" class="nav-link nav"> Home</a>
+            </li>
+            <li class="nav-item ">
+              <a href="perfil.html" class="nav-link nav">Perfil</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active nav" href="certificaciones.html">Certificaciones</a>
@@ -47,7 +50,7 @@
           <div class="col-12  col-md-12 col-lg-4 col-xl-3 mt-5">
             <div class="card col-12 " >
               <div class="col-6 offset-3 mt-4">
-                <img class=" card-img-top rounded-circle " src="imagenes/img-perfil.jpg"  >
+                <img class=" card-img-top rounded-circle" src="imagenes/img-perfil.jpg"  >
               </div>
               <div class="card-body ">
                 <h4 class="card-title text-center name">Alexis Antonio Moraga Gallardo</h4>
@@ -223,6 +226,32 @@
         </div>
       </div>
 
+      <div id="footer-container">
+        <div class="container">
+        <div class="row text-xs-center text-sm-left">
+          <div class=" col-6 col-lg-4">
+            <form id="suscribeForm" action="#" method="POST">
+              <h4 class="text-uppercase">¿Quierés recibir todas las novedades?</h4>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="tu@correo.com" name="email">
+                <small id="emailHelp" class="form-text text-muted">Tu correo no sera compartido con nadie</small>
+              </div>
+              <button type="submit" class="btn btn-primary form-text">Suscribe</button>
+            </form>
+          </div>
+          <div class=" col-6  col-lg-3 offset-lg-5">
+            <h4 class="ml-5 navigation nav">Navigation</h4>
+            <ul class=" ml-5 navbar-nav mr-auto">
+              <li class="nav-item"><a class="nav-link cw" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link cw" href="perfil.html">Perfil</a></li>
+              <li class="nav-item"><a class="nav-link cw" href="certificaciones.html">Certificaciones</a></li>
+              <li class="nav-item"><a class="nav-link cw" href="#">Proyectos</a></li>
+              <li class="nav-item"><a class="nav-link cw" href="#">Quien Soy</a></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
 
   </body>
 </html>
