@@ -12,6 +12,9 @@ color: black;
   }
 .container-home{
   background-color: white;
+
+  margin-left: 520px;
+  margin-right: 520px;
 }
 
 .card{
@@ -169,7 +172,14 @@ nav{
   font-size: 2.3em;
 }
 .cw{
-  font-size: 1.5em;
+  font-size: 1.7em;
+}
+
+.container-home{
+  background-color: white;
+
+  margin-left: 85px;
+  margin-right: 85px;
 }
 
 }
