@@ -1,4 +1,8 @@
+/* .margenes{
+  margin-left:15em;
+  margin-right:15em;
 
+} */
 
 .enlaces{
   font-size: 1em;
@@ -59,7 +63,9 @@ nav a{
 .espacio{
   padding: 2em;
 }
-
+.espacio2{
+  padding: 7em;
+}
 @media screen and (min-width: 1500px){
   .margenes{
     margin-left:140px;
@@ -70,6 +76,20 @@ nav a{
     font-size: 1em;
   }
 }
+@media screen and (max-width: 1500px){
+  .container-home{
+    margin-left: 13em;
+    margin-right: 13em;
+  }
+
+  p{
+
+    font-size: 1em;
+  }
+
+
+}
+
 
 @media screen and (max-device-width:992px){
 
@@ -114,7 +134,23 @@ nav{
   text-align: center;
 }
 
+.container-home{
+  margin-left: 8em;
+  margin-right: 8em;
+}
 
+
+
+
+}
+
+
+@media screen and (max-width: 900px){
+  .container-home{
+    margin-left:8em;
+    margin-right: 8em;
+
+  }
 
 }
 
@@ -176,22 +212,17 @@ nav{
 }
 
 .container-home{
-  background-color: white;
 
-  margin-left: 85px;
-  margin-right: 85px;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 }
 
 
-/* @media screen and (max-width: 600px){
-  .margenes{
+@media screen and (max-width: 600px){
+  .container-home{
     margin-left:20px;
     margin-right: 20px;
 
   }
-  .p{
-    font-size: 1.5em;
-  }
-} */
