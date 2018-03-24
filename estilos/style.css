@@ -107,6 +107,9 @@ nav a{
   p{
     font-size: 1.4em;
   }
+.cita{
+  font-size: 1em;
+}
 .titulos{
   font-size:2.8em;
 }
@@ -180,6 +183,9 @@ nav{
   }
   p{
     font-size: 2.1em;
+  }
+  .cita{
+    font-size: 1.5em;
   }
 .titulos{
   font-size:3.8em;
